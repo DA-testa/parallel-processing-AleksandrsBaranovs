@@ -32,8 +32,8 @@ def print_grid(n, m, result):
         print('-')
 
 def main():
-    n, m = 3, 6 
-    data = [2, 4, 3, 2, 1, 3] 
+    n, m = 3, 6 # Hard-coded input values
+    data = [2, 4, 3, 2, 1, 3] # Hard-coded input values
 
     result = parallel_processing(n, m, data)
 
